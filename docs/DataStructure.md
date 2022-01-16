@@ -3,7 +3,10 @@
 # Array
 For array code comments
 ```
-arr := [1,]
+arr := []int{1,2}
+```
+```
+arr := []string{""}
 ```
 ```
 resArr := make([]int,len(arr))
