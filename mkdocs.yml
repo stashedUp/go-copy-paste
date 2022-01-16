@@ -1,1 +1,16 @@
-site_name: My Docs
+site_name: GO copy me
+theme:
+    name: material
+    palette:
+        primary: white
+    favicon: static/logo.png
+    logo: static/logo.png
+
+nav:
+    - index.md
+    - Strings.md
+    - DataStructure.md
+    - Loops.md
+    - BFS.md
+    - DFS.md
+    - Print.md

@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Welcome to Go copy me
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This site is useful for copying and pasting go syntax.
+Golang does not have a lot of built in libaries. It takes awhile to type out the entire syntax. 
 
-## Commands
+This is useful for interviews
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
