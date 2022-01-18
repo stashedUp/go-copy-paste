@@ -79,6 +79,7 @@ func (this *Stack) Len() int {
 }
 ```
 ### Stack-String
+String stack
 ```go
 type Stack struct {
 	stack []string
@@ -115,3 +116,4 @@ func (this *Stack) Push(a string) {
 func (this *Stack) Len() int {
 	return len(this.stack) 
 }
+```
