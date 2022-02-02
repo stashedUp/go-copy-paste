@@ -49,6 +49,6 @@ str := "chicken"
 
 idx := strings.Index(str, "ken")
 
-fmt.Print(str[:idx])
+fmt.Print(str[:idx]) // prints chic
 
 
