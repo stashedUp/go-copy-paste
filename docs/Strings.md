@@ -44,6 +44,6 @@ Index returns the index of the first instance of substr in s, or -1 if substr is
 ```
 strings.Index("chicken", "ken")
 ```
-
+Return 4. So, str[:4] = chic
 
 
