@@ -3,7 +3,10 @@
 # Array
 For array code comments
 ```
-arr := [1,]
+arr := []int{1,2}
+```
+```
+arr := []string{""}
 ```
 ```
 resArr := make([]int,len(arr))
@@ -76,6 +79,7 @@ func (this *Stack) Len() int {
 }
 ```
 ### Stack-String
+String stack
 ```go
 type Stack struct {
 	stack []string
@@ -112,3 +116,4 @@ func (this *Stack) Push(a string) {
 func (this *Stack) Len() int {
 	return len(this.stack) 
 }
+```
