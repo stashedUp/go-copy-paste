@@ -13,4 +13,5 @@ nav:
     - Loops.md
     - BFS.md
     - DFS.md
+    - MinMax.md
     - Print.md
