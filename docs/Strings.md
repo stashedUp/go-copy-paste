@@ -51,4 +51,17 @@ idx := strings.Index(str, "ken")
 
 fmt.Print(str[:idx]) // prints chic
 
+## Split
+Splits string by parameter passed in
+```
+names := strings.Split(str, ":")
+```
+str := "Warren:Veerasingam"
+
+names := strings.Split(str, ":")
+
+fmt.Print(names[0]) // prints Warren
+
+fmt.Print(names[1]) // prints Veerasingam
+
 
