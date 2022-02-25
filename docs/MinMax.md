@@ -1,5 +1,6 @@
-# Min
+# Min Max Abs
 
+### Min
 ```go
 func Min(x, y int) int {
 
@@ -10,10 +11,7 @@ func Min(x, y int) int {
 	return y
 }
 ```
-
-
-# Max 
-
+### Max 
 ```go
 func Max(x, y int) int {
 
@@ -22,5 +20,14 @@ func Max(x, y int) int {
 	}
 
 	return y
+}
+```
+### Abs 
+```go
+func Abs(x int) int {	
+	if x <0 {
+		return -x
+	 }
+	 return x
 }
 ```
