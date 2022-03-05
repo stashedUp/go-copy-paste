@@ -8,3 +8,8 @@ Java has Array.sort(words). GO does not have a build in function. We have to do 
 		return len(words[i]) < len(words[j])
 	})
 ```
+
+### Reverse sort a slice of integer
+```go
+sort.Sort(sort.Reverse(sort.IntSlice(example)))
+```
